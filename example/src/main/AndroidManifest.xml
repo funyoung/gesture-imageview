@@ -17,9 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        
-        
+
+        <activity android:name=".EditorActivity"></activity>
+        <activity android:name="EditorNewActivity"></activity>
+        <activity android:name=".EditorAdRemovedActivity"></activity>
+
         <activity android:name="StandardImageProgrammaticWithOnClick"></activity>
         <activity android:name="StandardImageProgrammaticWithStartSettings"></activity>
         <activity android:name="StandardImageProgrammatic"></activity>

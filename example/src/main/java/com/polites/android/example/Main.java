@@ -34,8 +34,11 @@ import android.widget.ListView;
  */
 public class Main extends ListActivity {
 
-	static final String[] listItems = { 
-		"Single Image XML Layout", 
+	static final String[] listItems = {
+            "Editor Activity",
+            "Editor Activity New",
+            "Editor Activity Without AD",
+            "Single Image XML Layout",
 		"Single Image Programmatic", 
 		"Single Image Programmatic with onClick event", 
 		"Single Image Programmatic with start scale & position", 
@@ -55,7 +58,10 @@ public class Main extends ListActivity {
 		"ScaleType CENTER_INSIDE Portrait",  		
 	};
 	
-	static final Class<?>[] actvities = { 
+	static final Class<?>[] actvities = {
+            EditorActivity.class,
+            EditorNewActivity.class,
+            EditorAdRemovedActivity.class,
 		StandardImageXML.class,
 		StandardImageProgrammatic.class,
 		StandardImageProgrammaticWithOnClick.class,

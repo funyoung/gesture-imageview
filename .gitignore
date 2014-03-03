@@ -1,4 +1,25 @@
-example/bin
-example/gen
-main/bin/
-main/gen/
+# http://www.kernel.org/pub/software/scm/git/docs/gitignore.html
+# ignore this file
+.gitignore
+# ignore all .svn folder.
+.svn/
+
+# ignore eclipse project file
+.classpath
+.project
+project.properties
+bin/
+
+# ignore idea project folder
+.idea/
+
+# ignore temp output folder
+gen/
+out/
+
+*.iml
+
+.gradle
+build/
+
+obj/

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/itmLayout" android:background="@drawable/cmn_item_selector" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:onClick="onItemViewClick"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageViewicon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:src="@null" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:gravity="center_vertical" android:id="@id/itm_tv" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@null" android:drawableRight="@drawable/common_arrow_right_selector" android:layout_toRightOf="@id/imageViewicon" android:layout_centerVertical="true" style="@style/B4_Font_white" />
+</RelativeLayout>

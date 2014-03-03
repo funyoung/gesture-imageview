@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/black_dot_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onViewClick"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="45.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/linearLayout_txt_preview" android:background="#7f2f2f3f" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <com.ImaginationUnlimited.instaframe.widget.AutoFitTextView android:textAppearance="?android:textAppearanceLarge" android:textColor="#ff000000" android:gravity="center" android:id="@id/textView_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:background="#1f3f3f3f" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/text_edit" android:background="@drawable/txt_edit_normal" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="0.0dip" android:ems="10" android:singleLine="true" android:maxLength="18" android:drawableLeft="@drawable/text_edit_hint" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textCursorDrawable="@null" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linearLayout_tab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" android:layout_above="@id/text_edit" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <com.ImaginationUnlimited.instaframe.widget.NaviTab android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/frame_patten_radio_group" android:layout_width="200.0dip" android:layout_height="33.0dip" android:layout_marginTop="5.0dip" android:checkedButton="@id/textactivity_font">
+                <RadioButton android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/text_tab_colors" android:ellipsize="marquee" android:gravity="center" android:id="@id/textactivity_font" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@null" android:text="@string/str_text_font" android:layout_weight="0.5" />
+                <RadioButton android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/text_tab_colors" android:ellipsize="marquee" android:gravity="center" android:id="@id/textactivity_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@null" android:text="@string/str_text_color" android:layout_weight="0.5" />
+            </com.ImaginationUnlimited.instaframe.widget.NaviTab>
+            <com.ImaginationUnlimited.instaframe.widget.ViewFilpperr android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/text_flipper" android:background="#3f1f1f1f" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout_font" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/linearLayout_txt_preview" android:layout_alignParentLeft="true" android:layout_alignParentRight="true">
+                    <ListView android:id="@id/gf_font" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@drawable/list_selector" android:drawSelectorOnTop="false" android:cacheColorHint="#00000000" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                    <GridView android:id="@id/gridView_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:listSelector="@drawable/list_selector" android:drawSelectorOnTop="false" android:numColumns="6" />
+                </LinearLayout>
+            </com.ImaginationUnlimited.instaframe.widget.ViewFilpperr>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

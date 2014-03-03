@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_more_app" android:background="@drawable/btm_ctl_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.2" android:onClick="onBottomBarClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_moreapp" />
+        <TextView android:textSize="10.0sp" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_bar_moreapp" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_share" android:background="@drawable/btm_ctl_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.2" android:onClick="onBottomBarClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share" />
+        <TextView android:textSize="10.0sp" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_bar_share" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_rate" android:background="@drawable/btm_ctl_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.2" android:onClick="onBottomBarClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_app_rate" />
+        <TextView android:textSize="10.0sp" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_bar_rateme" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_feedback" android:background="@drawable/btm_ctl_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.2" android:onClick="onBottomBarClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_mailbox" />
+        <TextView android:textSize="10.0sp" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_bar_sendmail" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_about" android:background="@drawable/btm_ctl_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.2" android:onClick="onBottomBarClick">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu_assist" />
+        <TextView android:textSize="10.0sp" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_bar_about" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

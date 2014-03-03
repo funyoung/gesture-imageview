@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/main_gridview_item_selector" android:layout_width="@dimen/actionbar_height" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:onClick="onBackClick"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/edit_imageButtonbak" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/abs__ic_ab_back_holo_dark" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/main_logo" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="-1.0dip" android:layout_marginTop="@dimen/actionbar_icon_margin" android:layout_marginRight="@dimen/actionbar_icon_margin" android:layout_marginBottom="@dimen/actionbar_icon_margin" android:src="@drawable/ic_launcher" android:layout_toRightOf="@id/edit_imageButtonbak" />
+</RelativeLayout>

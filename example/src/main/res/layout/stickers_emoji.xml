@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:textSize="20.0sp" android:gravity="center_horizontal" android:id="@id/st_context" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/st_cancel" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-15.0dip" android:layout_marginTop="-15.0dip" android:src="@drawable/btn_cancel" android:layout_alignLeft="@id/st_context" android:layout_alignTop="@id/st_context" android:contentDescription="@null" />
+    <ImageView android:id="@id/st_zoom" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="-15.0dip" android:layout_marginBottom="-15.0dip" android:src="@drawable/btn_zoom_rotation" android:layout_alignRight="@id/st_context" android:layout_alignBottom="@id/st_context" android:contentDescription="@null" />
+</RelativeLayout>

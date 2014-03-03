@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/acb" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" layout="@layout/actionbar_browser" />
+    <com.ImaginationUnlimited.instaframe.widget.HackyViewPager android:gravity="center" android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/acb"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <android.support.v4.view.PagerTitleStrip android:textColor="#ffffffff" android:layout_gravity="top" android:id="@id/pager_title_strip" android:background="#1f3f3f3f" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.ImaginationUnlimited.instaframe.widget.HackyViewPager>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_nothing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/imageView_nopic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nothing" />
+    </LinearLayout>
+</RelativeLayout>

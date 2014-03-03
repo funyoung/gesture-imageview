@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">Notez %s</string>
+    <string name="rate_message">"Si vous aimez %s, voulez-vous prendre un moment pour l'évaluer? Cela ne vous prendra pas plus d'une minute. Merci de votre soutien!"</string>
+    <string name="rate">Notez %s</string>
+    <string name="rate_later">Rappelez-moi plus tard</string>
+    <string name="rate_cancel">Non, Merci</string>
+    <string name="share_title">Partager %s</string>
+    <string name="share_message">Si vous aimez utiliser %s, pourriez-vous faire découvrir à vos amis ?</string>
+    <string name="share">Yes, Partager %s</string>
+    <string name="share_later">Rappelez-moi plus tard</string>
+    <string name="share_cancel">Non, Merci</string>
+    <string name="str_about_en">"Instaframe vous permet d accompagner vos photos de manière créative avec du texte et des émoticônes, afin de créer de beaux montages photos, de les partager avec vos amis sur Instagram, Facebook, Twitter, Flickr et Tumblr. Avez-vous déjà souhaité créer vos propres montages photos ? Instaframe vous permet de créer facilement les meilleurs montages pour des occasions particulières. Vacances, anniversaires, Noël, vous pouvez désormais réunir vos meilleures photographies en un magnifique montage avec une des meilleures applications d’effets photos sur Android. Mais ne nous prenez pas au mot. 
+ 
+ Plus de 20 million de passionnés de photo s’amusent déjà sur Instaframe, rejoignez-les maintenant ! 
+ 
+ REUNISSEZ DE MULTIPLES PHOTOS POUR ENCADRER VOTRE MOMENT 
+ - Sélectionnez plusieurs photographies à la fois 
+ - Remplacez les images en les glissant / déposant sur une image existante 
+ - Enregistrez vos montages pour les modifier ultérieurement 
+ - Design agréable, à la fois sur portable et tablettes, exclusivement pour Android ! 
+ - 60 modèles ajustables 
+ - 61 beaux effets de bordure 
+ - 13 effets impressionnants à appliquer sur chacune de vos photos 
+ - Bords arrondis sur vos photos 
+ - Changez la largeur des bords 
+ - Ombres sur chaque photo 
+ - Zoomez, jouez sur la panoramique de chaque photo 
+ - Haute résolution 
+ 
+ AJOUTEZ DES MOTS ET DES EMOTICONES POUR RACONTER VOTRE HISTOIRE 
+ - FACILE de changer la couleur, la taille, et la police 
+ - Textes en haute résolution 
+ - Des centaines d émoticônes et de stickers personnalisés 
+ - Partagez sur Instagram, Facebook, Twitter, Flickr et Tumblr 
+ - Envoyez par SMS 
+ Donc, si vous cherchez la meilleure application de montage photo sur Android, tentez InstaFrame, ses incroyables options multiples de cadre photo et ses effets uniques pour améliorer vos photos. Instaframe –le moyen le plus simple de créer des montages photos fantastiques. 
+ 
+ Si vous aimez Instaframe, pouvez-vous prendre un instant pour l’évaluer ? Et ce serait génial si vous cliquez sur le bouton +1. Cela ne prendra pas plus d’une minute. Merci de votre soutien ! 
+ 
+"</string>
+    <string name="app_str_logo">le moyen le plus simple de créer des montages photos fantastiques.</string>
+    <string name="alert_dialog_two_buttons_title">Supprimer l’élément sélectionné ?</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Quitter</string>
+    <string name="browser_title">Mes Montages</string>
+    <string name="loading">Chargement…</string>
+    <string name="str_text_font">Police</string>
+    <string name="str_text_color">Couleur</string>
+    <string name="text_title">Textes</string>
+    <string name="picture">Photo</string>
+    <string name="ratio">Proportion</string>
+    <string name="next">Suivant</string>
+    <string name="help">Help</string>
+    <string name="clearallpic">Supprimer toutes les photos</string>
+    <string name="clearallemoji">Supprimer toutes les étiquettes</string>
+    <string name="err_no_googleplay">Merci d’installer Google Play</string>
+    <string name="send_feedback">Envoyer</string>
+    <string name="mail_send_select">Evaluation</string>
+    <string name="action_bar_moreapp">Plus</string>
+    <string name="action_bar_share">Partager</string>
+    <string name="action_bar_rateme">Evaluer</string>
+    <string name="action_bar_sendmail">Réaction</string>
+    <string name="action_bar_about">A propos</string>
+    <string name="action_bar_intro">Introducción</string>
+    <string name="str_collages">Mes Montages</string>
+    <string name="action_bar_layouts">Dispositions</string>
+    <string name="str_collagestab">Montages photos</string>
+    <string name="str_delete">Supprimer</string>
+    <string name="str_edit">Modifier</string>
+    <string name="str_browser">Feuilleter</string>
+    <string name="action_sheet_cancel">Résilier</string>
+    <string name="action_bar_camera">Caméra</string>
+    <string name="action_bar_gopro">Mise à jour</string>
+    <string name="action_bar_select">Sélectionnez une disposition</string>
+    <string name="action_bar_gallery">Galerie</string>
+    <string name="action_bar_help">Aide</string>
+    <string name="action_bar_frame">Cadres</string>
+    <string name="str_maxstickers_toast">Limite maximum atteinte</string>
+</resources>

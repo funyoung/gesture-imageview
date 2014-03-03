@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:background="#ff3f2c3c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ImaginationUnlimited.instaframe.widget.MainRadioGroup android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/main_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent" android:checkedButton="@id/frame">
+        <com.ImaginationUnlimited.instaframe.widget.CenteredRadioImageButton android:id="@id/main_more_app" android:layout_height="fill_parent" android:button="@drawable/menu_moreapp" android:layout_weight="0.2" />
+        <com.ImaginationUnlimited.instaframe.widget.CenteredRadioImageButton android:id="@id/main_share" android:layout_height="fill_parent" android:button="@drawable/share" android:layout_weight="0.2" />
+        <com.ImaginationUnlimited.instaframe.widget.CenteredRadioImageButton android:id="@id/main_rate" android:layout_height="fill_parent" android:button="@drawable/menu_app_rate" android:layout_weight="0.2" />
+        <com.ImaginationUnlimited.instaframe.widget.CenteredRadioImageButton android:id="@id/main_feedback" android:layout_height="fill_parent" android:button="@drawable/menu_mailbox" android:layout_weight="0.2" />
+        <com.ImaginationUnlimited.instaframe.widget.CenteredRadioImageButton android:id="@id/main_about" android:layout_height="fill_parent" android:button="@drawable/menu_assist" android:layout_weight="0.2" />
+    </com.ImaginationUnlimited.instaframe.widget.MainRadioGroup>
+</LinearLayout>

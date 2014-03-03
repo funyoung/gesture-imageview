@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout_FrameBorder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/border_linearLayout_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/ImageBorder_top_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <ImageView android:id="@id/ImageBorder_top_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <ImageView android:id="@id/ImageBorder_top_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/border_linearLayout_mid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/border_linearLayout_top">
+        <ImageView android:id="@id/ImageBorder_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/ImageBorder_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/border_linearLayout_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/border_linearLayout_mid">
+        <ImageView android:id="@id/ImageBorder_bottom_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <ImageView android:id="@id/ImageBorder_bottom_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <ImageView android:id="@id/ImageBorder_bottom_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </LinearLayout>
+</RelativeLayout>

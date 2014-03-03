@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/colloage_titlebar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" layout="@layout/actionbar_thumbnails" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/control_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/control_bar_i" android:background="#7f1f1f1f" android:layout_width="fill_parent" android:layout_height="@dimen/main_spinnerctl_width" android:layout_centerHorizontal="true">
+            <RelativeLayout android:gravity="center" android:id="@id/iv_go" android:background="@drawable/btn_right_selector" android:clickable="true" android:layout_width="70.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:onClick="onGalleryGoClick">
+                <TextView android:textSize="16.0sp" android:textColor="@color/black" android:ellipsize="marquee" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/next" android:drawableRight="@drawable/next" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:id="@id/ll_is" android:background="@drawable/ctl_bkcolor" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+                <com.ImaginationUnlimited.instaframe.widget.InstaIcsSpinner android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/spinner4Extra" android:visibility="gone" android:animationCache="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+            </LinearLayout>
+            <HorizontalScrollView android:scrollbarStyle="insideOverlay" android:id="@id/collages_hsv" android:scrollbars="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_toLeftOf="@id/iv_go" android:layout_toRightOf="@id/ll_is">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <GridView android:scrollbarStyle="insideOverlay" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ctl_item_gridView" android:scrollbars="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@drawable/ctl_grid_item_selector" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/ge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/control_bar_i">
+            <RadioGroup android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/collages_patten_group" android:layout_width="270.0dip" android:layout_height="54.0dip" android:checkedButton="@id/cprb_pics">
+                <RadioButton android:textSize="12.0sp" android:textColor="@color/crb_color" android:gravity="center" android:layout_gravity="center" android:id="@id/cprb_pics" android:background="@drawable/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@null" android:text="@string/picture" android:drawableTop="@drawable/crb_pic" android:drawablePadding="-5.0dip" android:layout_weight="0.33" />
+                <RadioButton android:textSize="12.0sp" android:textColor="@color/crb_color" android:gravity="center" android:layout_gravity="center" android:id="@id/cprb_ratio" android:background="@drawable/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@null" android:text="@string/ratio" android:drawableTop="@drawable/crb_ratio" android:drawablePadding="-5.0dip" android:layout_weight="0.33" />
+                <RadioButton android:textSize="12.0sp" android:textColor="@color/crb_color" android:gravity="center" android:layout_gravity="center" android:id="@id/cprb_frames" android:background="@drawable/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@null" android:text="@string/action_bar_layouts" android:drawableTop="@drawable/crb_layout" android:drawablePadding="-5.0dip" android:layout_weight="0.33" />
+            </RadioGroup>
+        </LinearLayout>
+    </RelativeLayout>
+    <GridView android:scrollbarThumbVertical="@drawable/scrollbar_vertical" android:gravity="center_horizontal" android:id="@id/gridview" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:horizontalSpacing="2.0dip" android:verticalSpacing="2.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:layout_above="@id/control_bar" android:layout_below="@id/colloage_titlebar" />
+</RelativeLayout>

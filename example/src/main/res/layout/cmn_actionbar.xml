@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:background="@drawable/actionbar_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/inc_back" android:layout_width="@dimen/actionbar_back_width" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/sherlock_back" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/navajowhite" android:gravity="center" android:id="@id/textViewTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@null" android:layout_toRightOf="@id/inc_back" />
+</RelativeLayout>

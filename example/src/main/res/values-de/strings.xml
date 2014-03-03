@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">Bewerte %s</string>
+    <string name="rate_message">Sie nutzen %s gerne? Dann nehmen Sie sich bitte für eine Bewertung einen Moment Zeit! Es dauert nicht länger als eine Minute. Vielen Dank!</string>
+    <string name="rate">Bewerte %s</string>
+    <string name="rate_later">Später erinnern</string>
+    <string name="rate_cancel">Nein, Danke</string>
+    <string name="share_title">Teilen %s</string>
+    <string name="share_message">Wenn Ihnen %s gefällt, würde Sie bitte mit Ihren Freunden teilen?</string>
+    <string name="share">Yes, Teilen %s</string>
+    <string name="share_later">Später erinnern</string>
+    <string name="share_cancel">Nein, Danke</string>
+    <string name="str_about_en">"Instaframe hilft Ihnen dabei, Ihre Fotos kreativ mit Text und Emoji zu kombinieren, um großartig aussehende Kollagen mit mehreren Bildern zu erstellen und sie dann mit Ihren Freunden auf Instagram, Facebook, Twitter, Flickr und Tumblr zu teilen. 
+ Wollten Sie schon immer mal Ihre eigenen Fotokollage erstellen? Instaframe ermöglicht Ihnen auf einfache Weise tolle Kollagen für besondere Anlässe zu erstellen. Urlaube, Geburtstage, Weihnachten - Sie können Ihre besten Fotos in einer wunderbaren Kollage mit den besten Kameraeffekten auf Android kombinieren. 
+ Aber sehen Sie einfach selbst. 
+ Über 20 Millionen Fotofanatiker erfreuen sich bereits an Instaframe. Machen Sie gleich mit! 
+ 
+ KOMBINIEREN SIE MEHRERE FOTOS - RAHMEN SIE MOMENTE EIN 
+ - Wählen Sie mehrere Bilder gleichzeitig aus 
+ - Ersetzen Sie Bilder per Drag/Drop auf einem anderen Bild 
+ - Speichern Sie Ihre Kollagen zur späteren Bearbeitung 
+ - Wunderschönes Design für Smartphones und Tablets - exklusiv für Android! 
+ - 600 anpassbare Vorlagen 
+ - 61 tolle Rahmeneffekte 
+ - 13 beeindruckende Effekte für individuelle Fotos 
+ - Abgerundete Ecken auf Fotos 
+ - Ändern Sie die Rahmenbreite 
+ - Schatten für jedes Foto 
+ - Zoom, Schwenken für jedes Foto 
+ - Hohe Auflösung 
+ 
+ FÜGEN SIE WÖRTER UND EMOTICONS HINZU, UM GESCHICHTEN ZU ERZÄHLEN 
+ - 20+ handerlesene, kreative Schriftarten 
+ - EINFACHES Ändern der Farbe, Größe und Schriftart 
+ - Hochauflösender Text 
+ - Hunderte spezielle Emojis und Aufkleber 
+ - Teilen auf Instagram, Facebook, Twitter, Flickr und Tumblr möglich. 
+ - Versand per SMS 
+ 
+ Wenn Sie die beste Fotokollagen-App auf Android suchen, probieren Sie Instaframe aus. Vielerlei beeindruckende Fotorahmen und einzigartige Effekte zum Aufhübschen Ihrer Fotos. 
+ Instaframe - der einfachste Weg, um fantastische Fotokollagen zu erstellen. 
+ Wenn Ihnen Instaframe Spaß macht, würden sie sich bitte einen Moment Zeit nehmen, um es zu bewerten? Und es wäre großartig, wenn Sie den +1 Button klicken. Es wird nicht länger als eine Minute dauern. Danke für Ihre Unterstützung! 
+ 
+"</string>
+    <string name="app_str_logo">der einfachste Weg, um fantastische Fotokollagen zu erstellen.</string>
+    <string name="alert_dialog_two_buttons_title">Ausgewähltes Objekt löschen?</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Abbruch</string>
+    <string name="browser_title">Meine Fotocollagen</string>
+    <string name="loading">Lade…</string>
+    <string name="str_text_font">Font</string>
+    <string name="str_text_color">Farbe</string>
+    <string name="text_title">Texte</string>
+    <string name="picture">Foto</string>
+    <string name="ratio">Verhältnis</string>
+    <string name="next">Weiter</string>
+    <string name="cancel">Abbruch</string>
+    <string name="send">Send</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="help">Help</string>
+    <string name="clearallpic">Alle Bilder löschen</string>
+    <string name="clearallemoji">Löschen Sie alle Aufkleber</string>
+    <string name="err_no_googleplay">Bitte installieren Sie Google Play</string>
+    <string name="send_feedback">Rückkopplung</string>
+    <string name="mail_send_select">Rückkopplung</string>
+    <string name="action_bar_moreapp">Mehr</string>
+    <string name="action_bar_share">Teile</string>
+    <string name="action_bar_rateme">Bewerten Sie es!</string>
+    <string name="action_bar_sendmail">Rückkopplung</string>
+    <string name="action_bar_about">About</string>
+    <string name="action_bar_intro">Einführung</string>
+    <string name="str_collages">Fotocollagen</string>
+    <string name="action_bar_layouts">Layouts</string>
+    <string name="str_collagestab">Fotocollagen</string>
+    <string name="str_delete">Löschen</string>
+    <string name="str_edit">Bearbeiten</string>
+    <string name="str_browser">Durchsuchen</string>
+    <string name="action_sheet_cancel">Stornieren</string>
+    <string name="action_bar_camera">Kamera</string>
+    <string name="action_bar_gopro">Aktualisieren</string>
+    <string name="action_bar_select">Wählen Sie ein Layout</string>
+    <string name="action_bar_gallery">Galerie</string>
+    <string name="action_bar_help">Hilfe</string>
+    <string name="action_bar_frame">Frames</string>
+    <string name="str_maxstickers_toast">Maximum erreicht</string>
+</resources>

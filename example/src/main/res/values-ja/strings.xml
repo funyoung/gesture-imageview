@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">%sの評価</string>
+    <string name="rate_message">楽しんでいただけたならば簡単なご意見をお願いします。%sを評価しますか？</string>
+    <string name="rate">%sを評価する</string>
+    <string name="rate_later">後で見る</string>
+    <string name="rate_cancel">いいえ</string>
+    <string name="share_title">分け合う %s</string>
+    <string name="share_message">％sを使って楽しかったら、を友達とシェアしよう</string>
+    <string name="share">分け合う %s</string>
+    <string name="share_later">後で見る</string>
+    <string name="share_cancel">いいえ</string>
+    <string name="str_about_en">"インスタフレームでは写真、テキスト、絵文字を加えた素晴らしいコラージュを作ることができて、フェースブック、ツイッター、FlickrとTumblrのSNSで共有できます。 
+ コラージュを作ってみたいと思ったことはありませんか？特別な日のためにインスタフレームで簡単に制作できます。休日、誕生日、クリスマスなどにベストのコラージュがアンドロイド上の最高なカメラフレーム効果で作れちゃいます！ 
+ 我々だけではなく、２００万人ンはもうすでにインスタフレームを楽しんでます。一緒にどうぞ！ 
+ 
+ 数枚の写真を合わせて、ひと時にフレームを付けよう 
+ - 一気に数枚の写真を選択出ます。 
+ - ドラグ、ドロップ方式で写真を入れ替えます。 
+ - コラージュを保存出来て、のちに編集も可能です。 
+ - アンドロイド専用のアプリで美しいタブレットとスマホ専用デザインです。 
+ - 編集可能なテンプレートが９０種類 
+ - 美しいボーダー効果が５４種類 
+ - 写真効果を１２個も用意 
+ - 写真の角も丸くできます 
+ - ボーダーサイズ編集 
+ - 写真影効果 
+ - ズームインとアウトもできます 
+ - 高画質 
+ 
+ 文字や絵文字でストリーを語ろう 
+ - ２０種類のフォント 
+ - 簡単に色、サイズとフォントが変えます 
+ - HDテキスト 
+ - 数百枚のシールや絵文字 
+ - インスタグラム、フェースブック、ツイッター、FlickrとTumblrでシェアできます 
+ - SMSで送信できます 
+ 
+ アンドロイド上もベストな写真コラージュソフトをお探しであればインスタフレームをぜひ使ってみてください。あなたの写真をフレームや写真効果で素晴らしいコラージュに仕上がります。 
+ インスタフレーム　–　簡単に素晴らしいコラージュ制作のナンバーワンソフトです 
+ インスタフレームを楽しく使っていただけたなら、評価をして頂けますか？＋１ボタンをクリックしてくれると助かります！一分以内に評価できます。ご協力ありがとうございました！ 
+ 
+"</string>
+    <string name="app_str_logo">簡単に素晴らしいコラージュ制作のナンバーワンソフトです</string>
+    <string name="alert_dialog_two_buttons_title">選択した項目を削除しますか？</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="browser_title">私の写真</string>
+    <string name="help_dialog_text">" "<i>開発者：ImaginationUnlimited Studio</i>" 
+ 
+ "<i>連絡：instaframe.android@foxmail.com</i>" 
+ 
+ "<b>我々は常にあなたのフィードバック、コメントや提案を歓迎</b>" 
+ "</string>
+    <string name="loading">起動中。。。</string>
+    <string name="str_text_font">フォント</string>
+    <string name="str_text_color">色</string>
+    <string name="text_title">テキスト</string>
+    <string name="picture">写真</string>
+    <string name="ratio">比率</string>
+    <string name="next">次に</string>
+    <string name="cancel">キャンセル</string>
+    <string name="send">送信</string>
+    <string name="ok">OK</string>
+    <string name="save">保存</string>
+    <string name="help">ヘルプ</string>
+    <string name="clearallpic">全ての写真を削除</string>
+    <string name="clearallemoji">全てのシールを削除</string>
+    <string name="err_no_googleplay">Google Playをインストールして下さい</string>
+    <string name="send_feedback">評価</string>
+    <string name="mail_send_select">フィードバック</string>
+    <string name="action_bar_moreapp">更多</string>
+    <string name="action_bar_share">シェア</string>
+    <string name="action_bar_rateme">評価しましょう!</string>
+    <string name="action_bar_sendmail">フィードバック</string>
+    <string name="action_bar_about">手助け</string>
+    <string name="action_bar_intro">情報</string>
+    <string name="str_collages">私のコラージュ</string>
+    <string name="action_bar_layouts">レイアウト</string>
+    <string name="str_collagestab">写真コラージュ</string>
+    <string name="str_delete">削除</string>
+    <string name="str_edit">編集</string>
+    <string name="str_browser">ブラウズ</string>
+    <string name="action_sheet_cancel">取消</string>
+    <string name="action_bar_inbox">郵便</string>
+    <string name="action_bar_camera">写真機</string>
+    <string name="action_bar_gopro">升級</string>
+    <string name="action_bar_select">レイアウトを選択</string>
+    <string name="action_bar_gallery">ギャラリー</string>
+    <string name="action_bar_help">手助け</string>
+    <string name="str_maxstickers_toast">最大カウントに達し制限</string>
+</resources>

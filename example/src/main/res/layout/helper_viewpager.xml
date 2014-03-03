@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rl_helper" android:background="@drawable/main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/htitle" android:layout_width="fill_parent" android:layout_height="48.0dip" layout="@layout/cmn_actionbar" /> "
+<com.ImaginationUnlimited.instaframe.widget.HackyViewPager android:gravity="center" android:layout_gravity="center" android:id="@id/intro_pager" android:persistentDrawingCache="animation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:flipInterval="30" android:layout_below="@id/htitle"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ImageView android:id="@id/hh_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="40.0dip" android:src="@drawable/app_banner" android:layout_below="@id/htitle" android:layout_centerHorizontal="true" />
+    <com.ImaginationUnlimited.instaframe.viewpagerindicator.IconPageIndicator android:id="@id/intro_pager_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/helper_start" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="52.0dip" android:src="@drawable/btn_flip" android:layout_toRightOf="@id/intro_pager_indicator" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="onStartBtnClick" />
+</RelativeLayout>

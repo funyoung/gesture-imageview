@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ll_brand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="180.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/app_logo" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_launcher" />
+        <ImageView android:id="@id/iv_app_nm" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/app_banner" android:includeFontPadding="false" android:layout_toRightOf="@id/app_logo" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/ivory" android:ellipsize="marquee" android:id="@id/app_xxxx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="@string/app_str_logo" android:includeFontPadding="false" android:layout_below="@id/ll_brand" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:background="#3ff3f3f3" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <include android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/include_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" layout="@layout/loading_32" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff2e3e2e" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/textView_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/loading" />
+    </LinearLayout>
+</RelativeLayout>

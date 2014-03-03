@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/menuContent" android:background="@color/menu_more_txt_color_night" android:layout_width="166.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llhelp" android:background="@drawable/menu_item_selector" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/menu_more_item_height" android:onClick="onMoreMenuClick">
+        <ImageView android:id="@id/clear_pics" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/transparent" android:contentDescription="XXX" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/menu_more_txt_color_day" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:text="@string/help" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/window_line1" android:background="@drawable/more_menu_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llclearpics" android:background="@drawable/menu_item_selector" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/menu_more_item_height" android:onClick="onMoreMenuClick">
+        <ImageView android:id="@id/imgViewNoPic" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/transparent" android:contentDescription="XXX" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/menu_more_txt_color_day" android:ellipsize="marquee" android:id="@id/txtViewNoPic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:text="@string/clearallpic" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/window_line2" android:background="@drawable/more_menu_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llclearstickers" android:background="@drawable/menu_item_selector" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/menu_more_item_height" android:onClick="onMoreMenuClick">
+        <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/transparent" android:contentDescription="XXX" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/menu_more_txt_color_day" android:ellipsize="marquee" android:id="@id/txtMyCollect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:text="@string/clearallemoji" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

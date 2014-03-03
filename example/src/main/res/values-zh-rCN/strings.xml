@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">给%s评分</string>
+    <string name="rate_message">如果你喜欢使用%s，你介意花一点时间给它评分吗？不会超过一分钟。感谢您的支持！</string>
+    <string name="rate">给%s评分</string>
+    <string name="rate_later">稍后提醒我</string>
+    <string name="rate_cancel">不，谢谢</string>
+    <string name="share_title">分享 %s</string>
+    <string name="share_message">如果你喜欢使用 %s, 你是否愿意分享给你的好友？不会超过一分钟。 感谢您的支持！</string>
+    <string name="share">是, 分享 %s</string>
+    <string name="share_later">稍后提醒我</string>
+    <string name="share_cancel">不，谢谢</string>
+    <string name="str_about_en">" "<b>Instaframe</b>"帮助您将多张照片组合放入漂亮的相框中,并且您可以很容易的添加文字到照片中。 
+ 
+ "<b>主要特点:</b>" 
+ 
+ - 轻松添加文字,您可以设置文字的大小,颜色,字体的类型 
+ - 您可以把文字拖动到任何地方,设置大小 
+ - 60个完全可调整的相框样式 
+ - 61个边框 
+ - 应用特效到各张照片 
+ - 平移、缩放每张照片 
+ - 拖放照片以轻松移到不同的区域 
+ - 高分辨率 
+ - 作为电子邮件发送 
+ - 发送图像到其他应用程序,例如Instagram 
+ - 通过Facebook、Twitter和Flickr分享图像 
+ 
+ 如果您使用后感觉还不错，请给予InstaFrame一个用户好评，我们将不胜感激！ 
+ 并以十二万分努力投入到新版本开发中... 
+ 
+ 
+ 我们随时欢迎您的反馈意见和建议: 
+ "<b>instaframe.android@foxmail.com</b>". 
+ "</string>
+    <string name="action_settings">设置</string>
+    <string name="loading">加载中...</string>
+    <string name="str_text_font">字体</string>
+    <string name="str_text_color">颜色</string>
+    <string name="text_title">文字</string>
+    <string name="picture">图片</string>
+    <string name="ratio">比率</string>
+    <string name="next">下一步</string>
+    <string name="cancel">取消</string>
+    <string name="send">发送</string>
+    <string name="help">帮助</string>
+    <string name="clearallpic">清除所有图片</string>
+    <string name="clearallemoji">清除所有贴纸</string>
+    <string name="err_no_googleplay">GooglePlay没有安装</string>
+    <string name="save_picture_toast">图片保存成功</string>
+    <string name="action_bar_moreapp">更多</string>
+    <string name="action_bar_share">分享</string>
+    <string name="action_bar_rateme">评分</string>
+    <string name="action_bar_sendmail">反馈</string>
+    <string name="action_bar_about">关于</string>
+    <string name="action_bar_intro">说明</string>
+    <string name="str_collages">我的拼贴</string>
+    <string name="action_bar_layouts">布局</string>
+    <string name="str_delete">删除</string>
+    <string name="str_edit">编辑</string>
+    <string name="str_browser">查看</string>
+    <string name="action_sheet_cancel">取消</string>
+    <string name="action_bar_camera">拍照</string>
+    <string name="action_bar_gopro">升级</string>
+    <string name="action_bar_gallery">图片库</string>
+    <string name="action_bar_help">帮助</string>
+    <string name="str_maxstickers_toast">没有空间放置贴纸或文字了</string>
+</resources>

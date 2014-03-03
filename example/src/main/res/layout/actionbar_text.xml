@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:background="@drawable/actionbar_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/inc_back" android:layout_width="@dimen/actionbar_back_width" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/sherlock_back" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ll_text_ok_btn" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:onClick="onokClick">
+        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/text_ok_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_action_accept" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/navajowhite" android:gravity="center" android:layout_gravity="center" android:id="@id/text_txttitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/text_title" android:layout_toRightOf="@id/inc_back" />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">%s 평가하기</string>
+    <string name="rate_message">%s 사용이 맘에 드셨나요? 잠시만 시간을 내서 평가를 부탁드리겠습니다. 감사합니다!</string>
+    <string name="rate">%s 평가하기</string>
+    <string name="rate_later">다음에 평가하겠습니다</string>
+    <string name="rate_cancel">평가하지 않겠습니다</string>
+    <string name="share_title">함께 나누다 %s</string>
+    <string name="share_message">당신은 %s을 사용하여 즐길 수 있다면, 친절하게 친구와 을 공유하세요</string>
+    <string name="share">아니오, 함께 나누다 %s</string>
+    <string name="share_later">다음에 평가하겠습니다</string>
+    <string name="share_cancel">평가하지 않겠습니다</string>
+    <string name="app_str_logo">환상적인 사진 콜라주를 만들 수있는 가장 쉬운 방법입니다.</string>
+    <string name="alert_dialog_two_buttons_title">사진을 삭제 하시겠습니까?</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">취소</string>
+    <string name="browser_title">내 사진</string>
+    <string name="help_dialog_text">" "<i>개발자：ImaginationUnlimited Studio</i>" 
+ 
+ "<i>접촉：instaframe.android@foxmail.com</i>" 
+ 
+ "<b>We always welcome your feedback, comments and suggestion</b>" 
+ "</string>
+    <string name="action_settings">설정</string>
+    <string name="str_text_font">글꼴</string>
+    <string name="str_text_color">색</string>
+    <string name="text_title">원본</string>
+    <string name="picture">사진</string>
+    <string name="ratio">비율</string>
+    <string name="next">다음</string>
+    <string name="cancel">취소</string>
+    <string name="send">전송</string>
+    <string name="ok">결정</string>
+    <string name="save">저장</string>
+    <string name="help">도움</string>
+    <string name="clearallpic">모든 사진을 삭제</string>
+    <string name="clearallemoji">모든 스티커를 삭제</string>
+    <string name="err_no_googleplay">GooglePlay를 설치하십시오</string>
+    <string name="send_feedback">피드백</string>
+    <string name="mail_send_select">피드백</string>
+    <string name="action_bar_moreapp">더 많은 응용 프로그램</string>
+    <string name="action_bar_share">친구에게 공유</string>
+    <string name="action_bar_rateme">평가</string>
+    <string name="action_bar_sendmail">피드백</string>
+    <string name="action_bar_about">정보</string>
+    <string name="action_bar_intro">소개</string>
+    <string name="str_collages">사진 합성</string>
+    <string name="action_bar_layouts">레이아웃</string>
+    <string name="str_collagestab">사진 합성</string>
+    <string name="str_delete">삭제</string>
+    <string name="str_edit">편집</string>
+    <string name="str_browser">검색</string>
+    <string name="action_sheet_cancel">취소</string>
+    <string name="action_bar_inbox">이메일</string>
+    <string name="action_bar_camera">카메라</string>
+    <string name="action_bar_gopro">업그레이드</string>
+    <string name="action_bar_select">레이아웃을 선택</string>
+    <string name="action_bar_gallery">갤러리</string>
+    <string name="action_bar_help">도움</string>
+    <string name="str_maxstickers_toast">최대 개수에 도달 제한</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">%s beoordelen</string>
+    <string name="rate_message">Als het gebruik van %s je bevalt, zou je dan een momentje de tijd willen nemen om het te beoordelen? Het duurt nog geen minuut. Bedankt voor je steun!</string>
+    <string name="rate">%s beoordelen</string>
+    <string name="rate_later">Herinner me er later aan</string>
+    <string name="rate_cancel">Nee, bedankt</string>
+    <string name="alert_dialog_two_buttons_title">Geselecteerd item verwijderen?</string>
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="browser_title">Mijn fotocollages</string>
+    <string name="str_text_font">Doopvont</string>
+    <string name="str_text_color">Kleur</string>
+    <string name="text_title">Tekst</string>
+    <string name="picture">Afbeelding</string>
+    <string name="ratio">Verhouding</string>
+    <string name="next">Naast</string>
+    <string name="clearallpic">Verwijder alle fotos</string>
+    <string name="clearallemoji">Verwijder alle stickers</string>
+    <string name="err_no_googleplay">Installeer GooglePlay</string>
+    <string name="send_feedback">Feedback</string>
+    <string name="mail_send_select">Feedback</string>
+    <string name="action_bar_about">About</string>
+    <string name="action_bar_intro">Introductie</string>
+    <string name="str_collages">Fotocollages</string>
+    <string name="action_bar_layouts">Layouts</string>
+    <string name="str_collagestab">Fotocollages</string>
+    <string name="str_delete">Verwijderen</string>
+    <string name="str_edit">Uitgeven</string>
+    <string name="str_browser">Blader</string>
+    <string name="action_sheet_cancel">Annuleren</string>
+    <string name="action_bar_camera">Camera</string>
+    <string name="action_bar_gopro">moderniseren</string>
+    <string name="action_bar_select">Selecteer een lay-out</string>
+    <string name="action_bar_gallery">Galerie</string>
+    <string name="action_bar_help">Help</string>
+    <string name="str_maxstickers_toast">Maximum telt limiet bereikt</string>
+</resources>

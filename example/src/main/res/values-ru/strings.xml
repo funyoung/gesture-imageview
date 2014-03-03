@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">Оценить %s</string>
+    <string name="rate_message">"Если Вам понравилась программа %s, пожалуйста поставьте свою оценку. Это займет у Вас не более одной минуты.
+ Спасибо за поддержку!"</string>
+    <string name="rate">Оценить %s</string>
+    <string name="rate_later">Напомнить позже</string>
+    <string name="rate_cancel">Нет, спасибо</string>
+    <string name="share_title">доля %s</string>
+    <string name="share_message">Если Вам понравится% s, не могли бы Вы поделиться с друзьями?</string>
+    <string name="share">да, доля %s</string>
+    <string name="share_later">Напомнить позже</string>
+    <string name="share_cancel">Нет, спасибо</string>
+    <string name="app_str_logo">самый простой способ сделать фантастический коллаж фотографии.</string>
+    <string name="alert_dialog_ok">Хорошо</string>
+    <string name="alert_dialog_cancel">Отменить</string>
+    <string name="browser_title">Мои Коллажи</string>
+    <string name="loading">Загрузка...</string>
+    <string name="str_text_font">Шрифт</string>
+    <string name="str_text_color">Цвет</string>
+    <string name="text_title">Тексты</string>
+    <string name="picture">Изображение</string>
+    <string name="ratio">Соотношение</string>
+    <string name="next">Следующий</string>
+    <string name="clearallpic">Удалить все фотографии</string>
+    <string name="clearallemoji">Удалить все наклейки</string>
+    <string name="err_no_googleplay">Пожалуйста, установите Google Play</string>
+    <string name="send_feedback">Отзыв</string>
+    <string name="mail_send_select">Отзыв</string>
+    <string name="action_bar_moreapp">Больше</string>
+    <string name="action_bar_share">Поделиться</string>
+    <string name="action_bar_rateme">Оценить!</string>
+    <string name="action_bar_sendmail">Отзыв</string>
+    <string name="action_bar_about">О</string>
+    <string name="action_bar_intro">введение</string>
+    <string name="str_collages">Фото Коллажи</string>
+    <string name="action_bar_layouts">Макеты</string>
+    <string name="str_collagestab">Галерея</string>
+    <string name="str_delete">удалять</string>
+    <string name="str_edit">Редактировать</string>
+    <string name="str_browser">просматривать</string>
+    <string name="action_sheet_cancel">отменить</string>
+    <string name="action_bar_camera">Камера</string>
+    <string name="action_bar_gopro">модернизировать</string>
+    <string name="action_bar_gallery">Галерея</string>
+    <string name="action_bar_help">Помощь</string>
+    <string name="action_bar_frame">Рамки</string>
+    <string name="str_maxstickers_toast">Достигнут лимит</string>
+</resources>

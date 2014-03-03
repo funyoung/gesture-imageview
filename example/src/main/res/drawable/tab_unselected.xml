@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/tab_space" android:right="@dimen/tab_space">
+        <shape android:dither="true" android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#9f000000" />
+        </shape>
+    </item>
+    <item android:left="0.0dip" android:top="52.0dip" android:right="0.0dip" android:bottom="0.0dip">
+        <shape>
+            <solid android:color="#d3f3f3f3" />
+        </shape>
+    </item>
+</layer-list>

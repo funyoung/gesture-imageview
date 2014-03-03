@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:background="@drawable/actionbar_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <include android:id="@id/inc_back" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/back" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/adcontain" android:layout_width="320.0dip" android:layout_height="50.0dip" android:layout_toRightOf="@id/inc_back">
+        <com.google.ads.AdView android:gravity="center_horizontal" android:id="@id/ad" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="be1a708486964199" ads:loadAdOnCreate="false" />
+    </FrameLayout>
+</RelativeLayout>

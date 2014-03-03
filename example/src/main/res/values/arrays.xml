@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stickers_tiems">
+        <item>Emoji</item>
+        <item>Love</item>
+        <item>Birthday</item>
+        <item>Mask</item>
+    </string-array>
+    <string-array name="frames_tiems">
+        <item>Frame</item>
+        <item>Color</item>
+    </string-array>
+    <string-array name="size_tiems">
+        <item>Size</item>
+        <item>Radius</item>
+    </string-array>
+    <string-array name="sta_collages_ctl">
+        <item>Ratio</item>
+        <item>Frames</item>
+        <item>Pictures</item>
+    </string-array>
+</resources>

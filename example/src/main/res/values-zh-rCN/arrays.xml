@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stickers_tiems">
+        <item>表情</item>
+        <item>爱情</item>
+        <item>生日</item>
+        <item>面具</item>
+    </string-array>
+</resources>

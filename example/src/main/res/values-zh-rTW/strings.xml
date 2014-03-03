@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">給%s評分</string>
+    <string name="rate_message">如果你喜歡使用%s，你介意花一點時間給它評分嗎？不會超過一分鐘。感謝您的支持！</string>
+    <string name="rate">給%s評分</string>
+    <string name="rate_later">稍後提醒我</string>
+    <string name="rate_cancel">不，謝謝</string>
+    <string name="share_title">分享 %s</string>
+    <string name="share_message">如果你喜歡使用 %s, 你是否愿意分享给你的好友？不會超過一分鐘。 感謝您的支持！</string>
+    <string name="share">是, 分享 %s</string>
+    <string name="share_later">稍后提醒我</string>
+    <string name="share_cancel">不，谢谢</string>
+    <string name="str_about_en">" "<b>Instaframe</b>"幫助您將多張照片組合放入漂亮的相框中,並且您可以很容易的添加文字到照片中。 
+ 主要特點: 
+ - 輕鬆添加文字,您可以設置文字的大小,顏色,字體的類型 
+ - 60個完全可調整的相框樣式 
+ - 61個邊框 
+ - 應用特效到各張照片 
+ - 拖放照片以輕鬆移到不同的區域 
+ - 高分辨率 
+ - 作為電子郵件發送 
+ - 發送圖像到其他應用程序,例如Instagram 
+ - 通過Facebook、Twitter和Flickr分享圖像 
+ 
+ 如果您使用後感覺還不錯，請給予InstaFrame一個用戶好評，我們將不勝感激! 並以十二萬分努力投入到新版本開發中... 
+ 
+ "</string>
+    <string name="alert_dialog_two_buttons_title">刪除該圖片？</string>
+    <string name="alert_dialog_ok">確定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="browser_title">我的拼貼</string>
+    <string name="help_dialog_text">" "<i>開發商：ImaginationUnlimited Studio</i>" 
+ 
+ "<i>聯繫：instaframe.android@foxmail.com</i>" 
+ 
+ "<b>Instaframe幫助您將多張照片組合放入漂亮的相框中，同時支持通過短信/電子郵件等分享給您的好友。</b>" 
+ "</string>
+    <string name="action_settings">設置</string>
+    <string name="loading">加载中...</string>
+    <string name="str_text_font">字形</string>
+    <string name="str_text_color">顏色</string>
+    <string name="text_title">文本</string>
+    <string name="picture">圖片</string>
+    <string name="ratio">比率</string>
+    <string name="next">下一步</string>
+    <string name="cancel">取消</string>
+    <string name="send">發送</string>
+    <string name="ok">確定</string>
+    <string name="save">保存</string>
+    <string name="help">幫助</string>
+    <string name="clearallpic">清除所有圖片</string>
+    <string name="clearallemoji">清除所有貼紙</string>
+    <string name="err_no_googleplay">GooglePlay沒有安裝</string>
+    <string name="send_feedback">意見反饋</string>
+    <string name="mail_send_select">選擇郵件客戶端</string>
+    <string name="action_bar_moreapp">更多</string>
+    <string name="action_bar_share">分享</string>
+    <string name="action_bar_rateme">評分</string>
+    <string name="action_bar_sendmail">反饋</string>
+    <string name="action_bar_about">關於</string>
+    <string name="action_bar_intro">介紹</string>
+    <string name="str_collages">照片拼貼</string>
+    <string name="action_bar_layouts">佈局</string>
+    <string name="str_collagestab">照片拼貼</string>
+    <string name="str_delete">刪除</string>
+    <string name="str_edit">編輯</string>
+    <string name="str_browser">瀏覽</string>
+    <string name="action_sheet_cancel">取消</string>
+    <string name="action_bar_inbox">郵件</string>
+    <string name="action_bar_camera">相機</string>
+    <string name="action_bar_gopro">升級</string>
+    <string name="action_bar_select">選擇相框樣式</string>
+    <string name="action_bar_gallery">圖片庫</string>
+    <string name="action_bar_help">幫助</string>
+    <string name="str_maxstickers_toast">最多添加16個</string>
+</resources>

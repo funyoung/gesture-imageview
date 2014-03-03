@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_str_logo">शानदार फोटो कोलाज बनाने के लिए सबसे आसान तरीका है.</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="loading">लदान...</string>
+    <string name="str_text_font">फॉन्ट</string>
+    <string name="str_text_color">रंग</string>
+    <string name="text_title">रंथों</string>
+    <string name="picture">तस्वीर</string>
+    <string name="ratio">अनुपात</string>
+    <string name="next">अगला</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="send">भेजें</string>
+    <string name="help">मदद</string>
+    <string name="clearallpic">सभी चित्रों को निका</string>
+    <string name="clearallemoji">सभी स्टिकर निकालें</string>
+    <string name="err_no_googleplay">गूगल प्ले स्थापित करें</string>
+    <string name="action_bar_moreapp">अधिक</string>
+    <string name="action_bar_share">शेयर</string>
+    <string name="action_bar_rateme">दर</string>
+    <string name="action_bar_sendmail">प्रतिपुष्टि</string>
+    <string name="action_bar_about">के बारे में</string>
+    <string name="action_bar_intro">परिचय</string>
+    <string name="str_collages">फोटो कोलाज</string>
+    <string name="action_bar_layouts">लेआउट</string>
+    <string name="str_delete">हटाना</string>
+    <string name="str_edit">संपादित करें</string>
+    <string name="str_browser">राउज़</string>
+    <string name="action_sheet_cancel">रद्द करें</string>
+    <string name="action_bar_camera">कैमरा</string>
+    <string name="action_bar_gopro">अपग्रेड</string>
+    <string name="action_bar_gallery">गैलरी</string>
+    <string name="action_bar_help">मदद</string>
+    <string name="str_maxstickers_toast">अधिकतम सीमा तक पहुंच</string>
+</resources>

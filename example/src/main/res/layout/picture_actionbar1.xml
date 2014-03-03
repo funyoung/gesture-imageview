@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:background="@drawable/actionbar_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <include android:id="@id/inc_back" android:layout_width="@dimen/actionbar_back_width" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/sherlock_back" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@color/navajowhite" android:gravity="center" android:id="@id/textViewGallery" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/action_bar_gallery" android:layout_toRightOf="@id/inc_back" />
+    <com.ImaginationUnlimited.instaframe.widget.ViewFilpperr android:gravity="center" android:layout_gravity="center" android:id="@id/flipper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/main_logo">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/adcontain" android:layout_width="320.0dip" android:layout_height="50.0dip">
+            <com.google.ads.AdView android:gravity="center_horizontal" android:id="@id/ad" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="be1a708486964199" ads:loadAdOnCreate="false" />
+        </FrameLayout>
+    </com.ImaginationUnlimited.instaframe.widget.ViewFilpperr>
+</RelativeLayout>

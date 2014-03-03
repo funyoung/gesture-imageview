@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cmn_pb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="false" android:indeterminateDrawable="@drawable/common_loading" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

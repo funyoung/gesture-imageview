@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_item_action_provider_action_bar" android:title="Settings" android:showAsAction="ifRoom" android:actionProviderClass="com.actionbarsherlock.sample.demos.ActionProviders$SettingsActionProvider" />
+    <item android:id="@id/menu_item_action_provider_overflow" android:title="Settings" android:showAsAction="never" android:actionProviderClass="com.actionbarsherlock.sample.demos.ActionProviders$SettingsActionProvider" />
+</menu>

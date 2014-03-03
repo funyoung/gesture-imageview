@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rate_title">Valorar %s</string>
+    <string name="rate_message">Si le gusta utilizar %s, ¿le importaría valorarlo? No le llevará más de un minuto. ¡Gracias por su colaboración!</string>
+    <string name="rate">Valorar %s</string>
+    <string name="rate_later">Recordar más tarde</string>
+    <string name="rate_cancel">No, gracias</string>
+    <string name="share_title">Compartir %s</string>
+    <string name="share_message">Si te gusta usar %s, ¿te importaría compartir con tus amigos?</string>
+    <string name="share">Yes, compartir %s</string>
+    <string name="share_later">Recordar más tarde</string>
+    <string name="share_cancel">No, gracias</string>
+    <string name="str_about_en">" "<b>Instaframe</b>" te ayuda a combinar tus fotos de manera creativa con texto y emojis para crear fotomontajes de aspecto atractivo y compartirlos con tus amigos en Instagram, Facebook, Twitter, Flickr y Tumblr. Has querido alguna vez crear tu propio fotomontaje? Instaframe te ayuda a crear fácilmente los mejores fotomontajes para ocasiones especiales. Vacaciones, cumpleaños, navidades... ahora puedes tener tus mejores fotos en un increíble collage con una de las mejores aplicaciones de efectos de cámara para Android. Pero no hace falta que te fíes de nuestra palabra. Más de 20 millones de fanáticos de las fotos ya están disfrutando con Instaframe, ¡únete a ellos ahora! 
+ 
+ "<b>COMBINA MÚLTIPLES FOTOS, ENMARCA TU MOMENTO</b>" 
+ - Selecciona múltiples fotos al mismo tiempo 
+ - Reemplaza las fotos arrastrando y soltando una imagen sobre otra existente 
+ - Guarda tus fotomontajes para editarlos más adelante 
+ - Diseño atractivo, tanto para teléfonos como para tablets, ¡exclusivamente para Android! 
+ - 60 plantillas ajustables 
+ - 61 bonitos efectos de borde 
+ - 13 increíbles efectos para las fotos 
+ - Redondeo del borde de las fotos 
+ - Cambio de anchura del borde 
+ - Efecto de sombra 
+ - Zoom y desplazamiento de las fotos 
+ - Alta resolución 
+ 
+ "<b>AÑADE PALABRAS Y EMOTICONOS PARA CONTAR TU HISTORIA</b>" 
+ - Más de 20 fuentes creativas bien elegidas 
+ - Cambio FÁCIL de color, tamaño y fuente 
+ - Texto en alta resolución 
+ - Cientos de emojis y pegatinas personalizadas 
+ - Comparte en Instagram, Facebook, Twitter, Flickr y Tumblr. 
+ - Envío mediante SMS 
+ 
+ Así que si estás buscando la mejor aplicación de fotomontaje en Android, dale una oportunidad a Instaframe, dispondrás de múltiples y asombrosos marcos para tus fotos y de efectos únicos para mejorar tus fotos. 
+ Instaframe - la manera más fácil de crear un fantástico fotomontaje. 
+ "</string>
+    <string name="app_str_logo">la manera más fácil de crear un fantástico fotomontaje.</string>
+    <string name="alert_dialog_two_buttons_title">Eliminar el elemento seleccionado?</string>
+    <string name="alert_dialog_ok">Aceptar</string>
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="browser_title">Mis fotomontajes</string>
+    <string name="loading">Cargando…</string>
+    <string name="str_text_font">Fuente</string>
+    <string name="str_text_color">Color</string>
+    <string name="text_title">Textos</string>
+    <string name="picture">Imagen</string>
+    <string name="ratio">Proporción</string>
+    <string name="next">Siguiente</string>
+    <string name="clearallpic">Eliminar todas las fotos</string>
+    <string name="clearallemoji">Eliminar todas las pegatinas</string>
+    <string name="err_no_googleplay">Por favor, instala Google Play</string>
+    <string name="send_feedback">Comentarios</string>
+    <string name="mail_send_select">Comentarios</string>
+    <string name="action_bar_moreapp">Más</string>
+    <string name="action_bar_share">Share</string>
+    <string name="action_bar_rateme">¡Puntúalo!</string>
+    <string name="action_bar_sendmail">Enviar</string>
+    <string name="action_bar_about">About</string>
+    <string name="action_bar_intro">Introducción</string>
+    <string name="str_collages">Mis fotomontajes</string>
+    <string name="str_collagestab">Galería</string>
+    <string name="str_delete">Borrar</string>
+    <string name="str_edit">Editar</string>
+    <string name="str_browser">Navegador</string>
+    <string name="action_sheet_cancel">Stornieren</string>
+    <string name="action_bar_camera">Cámara</string>
+    <string name="action_bar_gopro">Mejorar</string>
+    <string name="action_bar_select">Seleccione un diseño</string>
+    <string name="action_bar_gallery">Galería</string>
+    <string name="action_bar_help">Help</string>
+    <string name="action_bar_frame">Frames</string>
+    <string name="str_maxstickers_toast">Cuenta Límite máximo alcanzado</string>
+</resources>

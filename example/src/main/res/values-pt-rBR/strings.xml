@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_str_logo">a maneira mais fácil de se fazer fantásticas colagem de fotos .</string>
+    <string name="browser_title">Minha foto colagens</string>
+    <string name="loading">Carregando...</string>
+    <string name="str_text_font">Fonte</string>
+    <string name="str_text_color">Cor</string>
+    <string name="text_title">Texto</string>
+    <string name="picture">Foto</string>
+    <string name="ratio">Relação</string>
+    <string name="next">Próximo</string>
+    <string name="clearallpic">Remover todas as imagens</string>
+    <string name="clearallemoji">Remover todos os adesivos</string>
+    <string name="err_no_googleplay">Por favor instale o Google Play</string>
+    <string name="send_feedback">Comentários</string>
+    <string name="mail_send_select">Feedback</string>
+    <string name="action_bar_moreapp">Mais</string>
+    <string name="action_bar_share">Partilhar</string>
+    <string name="action_bar_rateme">Classificar!</string>
+    <string name="action_bar_sendmail">Feedback</string>
+    <string name="action_bar_about">About</string>
+    <string name="action_bar_intro">Introdução</string>
+    <string name="str_collages">Colagens de fotos</string>
+    <string name="action_bar_layouts">Traçado</string>
+    <string name="str_collagestab">Fotocolagem</string>
+    <string name="str_delete">Excluir</string>
+    <string name="str_edit">Editar</string>
+    <string name="str_browser">Procurar</string>
+    <string name="action_sheet_cancel">Cancelar</string>
+    <string name="action_bar_camera">Câmera</string>
+    <string name="action_bar_gopro">Upgrade</string>
+    <string name="action_bar_gallery">Galeria</string>
+    <string name="action_bar_help">Ajudar</string>
+    <string name="action_bar_frame">Frames</string>
+    <string name="str_maxstickers_toast">Limite máximo atingido</string>
+</resources>

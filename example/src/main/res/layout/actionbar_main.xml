@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:background="@drawable/actionbar_main_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <ImageView android:gravity="left" android:id="@id/main_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:src="@drawable/ic_launcher" android:layout_alignParentLeft="true" />
+    <com.ImaginationUnlimited.instaframe.widget.ViewFilpperr android:gravity="center" android:layout_gravity="center" android:id="@id/flipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/main_logo">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/adcontain" android:layout_width="320.0dip" android:layout_height="50.0dip">
+            <com.google.ads.AdView android:gravity="center_horizontal" android:id="@id/ad" android:layout_width="wrap_content" android:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="4c795ad6031b49dc" ads:loadAdOnCreate="false" />
+        </FrameLayout>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:layout_gravity="center" android:id="@id/textViewTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_bar_select" />
+    </com.ImaginationUnlimited.instaframe.widget.ViewFilpperr>
+</RelativeLayout>

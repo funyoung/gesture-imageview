@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:background="@drawable/actionbar_main_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+    <ImageView android:gravity="left" android:id="@id/main_logo" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="@dimen/actionbar_icon_margin" android:layout_marginBottom="@dimen/actionbar_icon_margin" android:src="@drawable/ic_launcher" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/main_logo_t" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:src="@drawable/app_banner" android:layout_toRightOf="@id/main_logo" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ll_about_btn" android:background="@drawable/main_gridview_item_selector" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:onClick="onConfigClick">
+        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/about_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/ic_action_settings" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ll_share_btn" android:background="@drawable/main_gridview_item_selector" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ll_about_btn" android:onClick="onShareClick">
+        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tab_share_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/ic_action_share" />
+    </LinearLayout>
+</RelativeLayout>

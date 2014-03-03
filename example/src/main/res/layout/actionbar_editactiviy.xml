@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="fill_horizontal" android:orientation="horizontal" android:background="@drawable/actionbar_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:gravity="fill_horizontal"
+    android:orientation="horizontal"
+    android:background="@drawable/actionbar_color"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:layout_width="@dimen/actionbar_back_width" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/sherlock_back" />
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ll_edit_menu" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true">
-        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/edit_menu_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/abs__ic_menu_moreoverflow_normal_holo_dark" />
+    <include android:layout_width="@dimen/actionbar_back_width"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/sherlock_back" />
+    <LinearLayout android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/ll_edit_menu"
+        android:layout_width="40.0dip"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true">
+        <ImageView android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/edit_menu_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/abs__ic_menu_moreoverflow_normal_holo_dark" />
     </LinearLayout>
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/ll_edit_save" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ll_edit_menu">
-        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/edit_save_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_action_save" />
+    <LinearLayout android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/ll_edit_save"
+        android:layout_width="50.0dip"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/ll_edit_menu">
+        <ImageView android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:id="@id/edit_save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_action_save" />
     </LinearLayout>
-    <com.ImaginationUnlimited.instaframe.widget.ShareView android:gravity="right" android:id="@id/edit_share_view" android:background="@drawable/main_gridview_item_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ll_edit_save" />
+    <ImageView android:gravity="right"
+        android:id="@id/edit_share_view"
+        android:background="@drawable/main_gridview_item_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/ll_edit_save" />
 </RelativeLayout>

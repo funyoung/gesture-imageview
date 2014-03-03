@@ -4,6 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
   xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
     <LinearLayout android:id="@id/edit_titlebar"
         android:layout_width="fill_parent"
@@ -34,14 +35,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY" />
-            <com.ImaginationUnlimited.instaframe.widget.FrameGroupContextView
+            <!--<com.ImaginationUnlimited.instaframe.widget.FrameGroupContextView-->
+                <!--android:gravity="center"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:id="@id/edit_frames_context"-->
+                <!--android:focusable="true"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+            <com.polites.android.GestureImageView
                 android:gravity="center"
                 android:layout_gravity="center"
-                android:id="@id/edit_frames_context"
-                android:focusable="true"
+                android:id="@+id/image"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" />
-            <com.diordna.component.widget.AsyncImageView
+                android:layout_height="wrap_content"
+                gesture-image:min-scale="0.75"
+                gesture-image:max-scale="10.0"
+                android:src="@drawable/image"/>
+            <ImageView
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:id="@id/ImageBorder"
@@ -63,7 +73,7 @@
             <LinearLayout android:background="#2fffffff"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent">
-                <com.ImaginationUnlimited.instaframe.widget.InstaIcsSpinner
+                <Spinner
                     android:gravity="center_vertical"
                     android:layout_gravity="center_vertical"
                     android:id="@id/spinner4Extra"

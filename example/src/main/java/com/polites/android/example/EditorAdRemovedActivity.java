@@ -27,17 +27,19 @@ public class EditorAdRemovedActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.double_image);
-        
-        LayoutParams params = new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT);
-        
-        view = new GestureImageView(this);
-        view.setLayoutParams(params);
-        
-        ViewGroup layout = (ViewGroup) findViewById(R.id.layout);
+        setContentView(R.layout.activity_edit_noads);
 
-        layout.addView(view);
-        
-        handler.sendEmptyMessageDelayed(IMAGE_LOAD, 2000);
+        ViewGroup layout = (ViewGroup) findViewById(R.id.layout);
+        if (null != layout) {
+            LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+
+            view = new GestureImageView(this);
+            view.setLayoutParams(params);
+
+
+            layout.addView(view);
+
+            handler.sendEmptyMessageDelayed(IMAGE_LOAD, 2000);
+        }
     }
 }

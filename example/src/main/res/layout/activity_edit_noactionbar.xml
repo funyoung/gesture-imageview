@@ -1,38 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/main_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:layout_gravity="center_horizontal"
+    android:background="@drawable/main_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
-    <LinearLayout android:id="@id/edit_titlebar" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height">
-        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/actionbar_editactiviy" />
+    <LinearLayout android:id="@id/edit_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_height">
+        <include android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/actionbar_editactiviy" />
     </LinearLayout>
-    <RelativeLayout android:id="@id/adl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/edit_titlebar" />
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/edit_fctx" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/edit_menu_context" android:layout_below="@id/adl">
-        <FrameLayout android:layout_gravity="center" android:id="@id/framegroup_with_border" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/ImageBorderBK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
-            <com.ImaginationUnlimited.instaframe.widget.FrameGroupContextView android:gravity="center" android:layout_gravity="center" android:id="@id/edit_frames_context" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-            <com.diordna.component.widget.AsyncImageView android:gravity="center" android:layout_gravity="center" android:id="@id/ImageBorder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <RelativeLayout android:id="@id/adl"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_below="@id/edit_titlebar" />
+    <LinearLayout android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/edit_fctx"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/edit_menu_context"
+        android:layout_below="@id/adl">
+        <FrameLayout android:layout_gravity="center"
+            android:id="@id/framegroup_with_border"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/ImageBorderBK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY" />
+            <com.ImaginationUnlimited.instaframe.widget.FrameGroupContextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/edit_frames_context"
+                android:focusable="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <com.diordna.component.widget.AsyncImageView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@id/ImageBorder"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY" />
         </FrameLayout>
     </LinearLayout>
-    <LinearLayout android:orientation="vertical" android:id="@id/edit_menu_context" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_alignParentBottom="true">
-        <LinearLayout android:orientation="horizontal" android:background="#1fffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <LinearLayout android:background="#2fffffff" android:layout_width="wrap_content" android:layout_height="fill_parent">
-                <com.ImaginationUnlimited.instaframe.widget.InstaIcsSpinner android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/spinner4Extra" android:visibility="gone" android:animationCache="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawSelectorOnTop="true" />
+    <LinearLayout android:orientation="vertical"
+        android:id="@id/edit_menu_context"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.0dip"
+        android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal"
+            android:background="#1fffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout android:background="#2fffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+                <com.ImaginationUnlimited.instaframe.widget.InstaIcsSpinner
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/spinner4Extra"
+                    android:visibility="gone"
+                    android:animationCache="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:drawSelectorOnTop="true" />
             </LinearLayout>
-            <HorizontalScrollView android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
-                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
-                    <GridView android:id="@id/edit_gridView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <HorizontalScrollView android:scrollbars="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip"
+                android:layout_marginBottom="4.0dip">
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent">
+                    <GridView android:id="@id/edit_gridView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
                 </LinearLayout>
             </HorizontalScrollView>
         </LinearLayout>
-        <include android:layout_width="fill_parent" android:layout_height="50.0dip" layout="@layout/edit_bottom_rg" />
+        <include android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            layout="@layout/edit_bottom_rg" />
     </LinearLayout>
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/progress_LinearLayout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/edit_titlebar">
-        <include android:id="@id/progsbarr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="110.0dip" layout="@layout/common_progressbar" />
+    <LinearLayout android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@id/progress_LinearLayout"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/edit_titlebar">
+        <include android:id="@id/progsbarr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="110.0dip"
+            layout="@layout/common_progressbar" />
     </LinearLayout>
-    <RelativeLayout android:orientation="vertical" android:id="@id/savepic_animation" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/edit_menu_context" android:layout_below="@id/adl" android:layout_alignTop="@id/edit_fctx">
-        <ImageView android:id="@id/savepic_animation_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:orientation="vertical"
+        android:id="@id/savepic_animation"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/edit_menu_context"
+        android:layout_below="@id/adl"
+        android:layout_alignTop="@id/edit_fctx">
+        <ImageView android:id="@id/savepic_animation_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
     </RelativeLayout>
-    <RelativeLayout android:id="@id/mymenu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_below="@id/edit_titlebar" android:layout_alignParentRight="true" android:onClick="onMenuDismiss">
-        <include android:layout_width="166.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" layout="@layout/menu_more" />
+    <RelativeLayout android:id="@id/mymenu"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="0.0dip"
+        android:layout_below="@id/edit_titlebar"
+        android:layout_alignParentRight="true"
+        android:onClick="onMenuDismiss">
+        <include android:layout_width="166.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            layout="@layout/menu_more" />
     </RelativeLayout>
 </RelativeLayout>

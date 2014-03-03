@@ -42,15 +42,12 @@
                 <!--android:focusable="true"-->
                 <!--android:layout_width="fill_parent"-->
                 <!--android:layout_height="wrap_content" />-->
-            <com.polites.android.GestureImageView
-                android:gravity="center"
-                android:layout_gravity="center"
-                android:id="@+id/image"
+            <include layout="@layout/quater_image"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                gesture-image:min-scale="0.75"
-                gesture-image:max-scale="10.0"
-                android:src="@drawable/image"/>
+                android:layout_gravity="center"
+                />
+
             <ImageView
                 android:gravity="center"
                 android:layout_gravity="center"
